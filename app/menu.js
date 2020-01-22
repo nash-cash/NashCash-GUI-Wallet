@@ -55,7 +55,7 @@ export default class MenuBuilder {
           label: `${il8n.about} ${productName}`,
           click: () => {
             shell.openExternal(
-              'http://github.com/turtlecoin/turtle-wallet-proton#readme'
+              'https://github.com/Nash-Cash/NashCash-GUI-Wallet#readme'
             );
           }
         },
@@ -468,7 +468,7 @@ export default class MenuBuilder {
             label: il8n.about,
             click: () => {
               shell.openExternal(
-                'http://github.com/turtlecoin/turtle-wallet-proton#readme'
+                'https://github.com/Nash-Cash/NashCash-GUI-Wallet#readme'
               );
             }
           },
@@ -476,7 +476,7 @@ export default class MenuBuilder {
             label: il8n.report_bug,
             click: () => {
               shell.openExternal(
-                'https://github.com/turtlecoin/turtle-wallet-proton/issues'
+                'https://github.com/Nash-Cash/NashCash-GUI-Wallet/issues'
               );
             }
           },
@@ -484,7 +484,7 @@ export default class MenuBuilder {
             label: il8n.feature_request,
             click: () => {
               shell.openExternal(
-                'https://github.com/turtlecoin/turtle-wallet-proton/issues'
+                'https://github.com/Nash-Cash/NashCash-GUI-Wallet/issues'
               );
             }
           }

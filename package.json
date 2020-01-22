@@ -100,7 +100,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/turtlecoin/turtle-wallet-proton.git"
+    "url": "git+https://github.com/Nash-Cash/NashCash-GUI-Wallet.git"
   },
   "author": {
     "name": "ExtraHash",
@@ -109,7 +109,7 @@
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/turtlecoin/turtle-wallet-proton/issues"
+    "url": "https://github.com/Nash-Cash/NashCash-GUI-Wallet/issues"
   },
   "keywords": [
     "NashCash",
@@ -117,7 +117,7 @@
     "electron",
     "proton"
   ],
-  "homepage": "https://github.com/turtlecoin/turtle-wallet-proton#readme",
+  "homepage": "https://github.com/Nash-Cash/NashCash-GUI-Wallet#readme",
   "jest": {
     "testURL": "http://localhost/",
     "moduleNameMapper": {
