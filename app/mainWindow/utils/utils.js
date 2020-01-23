@@ -67,7 +67,7 @@ export function atomicToHuman(x: number, prettyPrint?: boolean) {
   if (prettyPrint || false) {
     return `${formatLikeCurrency((x / 100000000).toFixed(4))}`;
   }
-  return x / 100000000;
+  return x / 1000000;
 }
 
 export function convertTimestamp(timestamp: Date) {
