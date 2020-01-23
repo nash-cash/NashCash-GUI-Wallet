@@ -34,6 +34,11 @@ function parseMessage(message: any) {
       break;
     case 'stopRequest':
       backend.stop(true);
+      if (backend) {
+        backend.stop(true);
+      } else {
+        ipcRenderer.send('backendStopped');
+      }
       break;
     case 'transactionSearchQuery':
       backend.transactionSearch(data);
