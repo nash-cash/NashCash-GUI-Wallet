@@ -46,7 +46,7 @@
   },
   "main": "./app/main.prod.js",
   "build": {
-    "productName": "NashCash-GUI-Wallet",
+    "productName": "proton-wallet",
     "appId": "wallet.proton.extra",
     "files": [
       "app/dist/",
@@ -112,7 +112,7 @@
     "url": "https://github.com/Nash-Cash/NashCash-GUI-Wallet/issues"
   },
   "keywords": [
-    "NashCash",
+    "turtlecoin",
     "gui wallet",
     "electron",
     "proton"

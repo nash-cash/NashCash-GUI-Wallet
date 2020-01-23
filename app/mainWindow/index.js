@@ -38,8 +38,8 @@ export function savedInInstallDir(savePath: string) {
 const homedir = os.homedir();
 
 export const directories = [
-  `${homedir}/.protonwallet`,
-  `${homedir}/.protonwallet/logs`
+  `${homedir}/.nashguiwallet`,
+  `${homedir}/.nashguiwallet/logs`
 ];
 
 export const il8n = new LocalizedStrings({
@@ -388,7 +388,7 @@ ipcRenderer.on('handleSaveAs', () => {
     defaultPath: remote.app.getPath('documents'),
     filters: [
       {
-        name: 'NashCash Wallet File',
+        name: 'NashCash Wallet File (v0)',
         extensions: ['wallet']
       }
     ]
@@ -633,7 +633,7 @@ function handleOpen() {
     defaultPath: remote.app.getPath('documents'),
     filters: [
       {
-        name: 'NashCash Wallet File',
+        name: 'NashCash Wallet File (v0)',
         extensions: ['wallet']
       }
     ]

@@ -166,7 +166,7 @@ export default class NewWallet extends Component<Props, State> {
             defaultPath: remote.app.getPath('documents'),
             filters: [
               {
-                name: 'NashCash Wallet File',
+                name: 'NashCash Wallet File (v0)',
                 extensions: ['wallet']
               }
             ]
