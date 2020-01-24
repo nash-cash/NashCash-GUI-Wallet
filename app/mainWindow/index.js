@@ -38,8 +38,8 @@ export function savedInInstallDir(savePath: string) {
 const homedir = os.homedir();
 
 export const directories = [
-  `${homedir}/.nashguiwallet`,
-  `${homedir}/.nashguiwallet/logs`
+  `${homedir}/.protonwallet`,
+  `${homedir}/.protonwallet/logs`
 ];
 
 export const il8n = new LocalizedStrings({
