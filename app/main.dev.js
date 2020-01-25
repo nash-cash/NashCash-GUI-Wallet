@@ -45,8 +45,8 @@ let backendReady = false;
 let configReady = false;
 
 const directories = [
-  `${homedir}/.protonwallet`,
-  `${homedir}/.protonwallet/logs`
+  `${homedir}/.nashcashwallet`,
+  `${homedir}/.nashcashwallet/logs`
 ];
 
 const [programDirectory] = directories;
