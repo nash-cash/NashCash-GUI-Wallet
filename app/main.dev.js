@@ -184,7 +184,7 @@ contextMenu({
       visible: params.selectionText.trim().length === 64,
       click: () => {
         shell.openExternal(
-          `https://explorer.turtlecoin.lol/?search=${encodeURIComponent(
+          `https://explorer.nashcash.net/?hash=${encodeURIComponent(
             params.selectionText
           )}`
         );
