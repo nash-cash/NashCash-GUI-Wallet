@@ -37,7 +37,7 @@ git clone https://github.com/Nash-Cash/NashCash-GUI-Wallet.git
 And then install the dependencies with yarn.
 
 ```bash
-$ cd NasshCash-GUI-Wallet
+$ cd NashCash-GUI-Wallet
 $ yarn
 ```
 
