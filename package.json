@@ -47,7 +47,7 @@
   "main": "./app/main.prod.js",
   "build": {
     "productName": "nashcash-gui-wallet",
-    "appId": "wallet.proton.extra",
+    "appId": "wallet.nashcash.extra",
     "files": [
       "app/dist/",
       "app/mainWindow/app.html",
