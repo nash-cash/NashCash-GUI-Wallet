@@ -34,7 +34,7 @@ export default class WalletSession {
     daemonType: 1,
     daemonTypeDetermined: true,
     host: 'api.nashcash.net',
-    port: 443,
+    port: 24888, 
     ssl: true,
     sslDetermined: true
   };
