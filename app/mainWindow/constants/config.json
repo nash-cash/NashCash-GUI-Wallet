@@ -6,7 +6,7 @@
   "minimizeToTray": false,
   "logLevel": "DISABLED",
   "daemonHost": "api.nashcash.net",
-  "daemonPort": 443,
+  "daemonPort": 24888,
   "darkMode": true,
   "displayCurrency": "NaCa",
   "selectedFiat": "usd",
