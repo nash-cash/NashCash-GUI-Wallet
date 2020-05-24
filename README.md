@@ -1,4 +1,4 @@
-![GitHub All Releases](https://img.shields.io/github/downloads/nash-cash/NashCash-GUI-Wallet/total)
+[![Build Status](https://travis-ci.com/Nash-Cash/NashCash-GUI-Wallet.svg?branch=master)](https://travis-ci.com/Nash-Cash/NashCash-GUI-Wallet) ![GitHub All Releases](https://img.shields.io/github/downloads/nash-cash/NashCash-GUI-Wallet/total)
 
 # NashCash Wallet
 
