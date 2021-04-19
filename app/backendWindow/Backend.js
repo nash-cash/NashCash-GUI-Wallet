@@ -409,7 +409,7 @@ export default class Backend {
           body: `You've just received ${atomicToHuman(
             transaction.totalAmount(),
             true
-          )} TRTL.`
+          )} NACA.`
         });
       }
     });
